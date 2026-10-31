@@ -1,0 +1,22 @@
+# Environment
+.venv/
+
+# Secrets (.env.example is not matched, so it stays tracked)
+.env
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Tool caches and reports
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Build outputs
+dist/
+build/
+*.egg-info/
